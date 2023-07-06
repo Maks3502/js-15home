@@ -50,27 +50,24 @@
 
 // завдання 5
 
-function getAllPropValues(arr, prop) {
+// function getAllPropValues(arr, prop) {
 
-  const Values = [];
+//   for (const object of arr) {
 
-  for (const object of arr) {
+//   console.log(object[prop]);
 
-  console.log(object[prop]);
+//   }
+// }
 
-    
-  }
-  return Values;
-}
+// const watter = [
 
-const watter = [
-  { name: "Morshynska", price: 23 },
-  { name: "Morshynska", price: 23 },
-  { name: "Morshynska", price: 23 },
-  { name: "Morshynska", price: 23 },
-];
+//   { name: "Morshynska", price: 23 },
+//   { name: "Morshynska", price: 23 },
+//   { name: "Morshynska", price: 23 },
+//   { name: "Morshynska", price: 23 },
+// ];
 
-console.log(getAllPropValues(watter, `price`));
+// console.log(getAllPropValues(watter, `price`));
 
 
 // завдання6
